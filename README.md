@@ -1,12 +1,14 @@
-# MC-Structure
+# MC-Structure 
+**❗ Discontinued ❗**
+
 Wrapper for structure blocks on the Python NBT Parser
 
 Parser: https://github.com/twoolie/NBT
 
-###Classes:
+## Classes:
 structure(path) - Creates a structure block object
 
-###Functions:
+## Functions:
 set_size(x,y,z) - Sets the size of the structure (default is 1,1,1)
 
 add_block_to_palette(name,properties) - Adds block to palette
@@ -27,7 +29,7 @@ find_and_replace_nbt(find,replace,key) - Replaces all instances of string 'find'
 
 save(path) - Saves a structure block object
 
-###Key:
+## Key:
 x,y,z - Integers representing size or coordinates
 
 name - String representing the name of a block E.G 'minecraft:stone'
